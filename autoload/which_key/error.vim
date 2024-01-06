@@ -25,7 +25,8 @@ function! ShowPopupNotification(msg, hl_group) abort
           \ 'minwidth': 20,
           \ 'time': 3000,
           \ 'highlight': a:hl_group,
-          \ 'borderchars': ['─', '│', '─', '│', '╭', '╮', '╯', '╰'],
+          \ 'border': [],
+          \ 'borderchars': ["\u2500", "\u2502", "\u2500", "\u2502", "\u256D", "\u256E", "\u256F", "\u2570"],
           \ 'close': 'click',
           \ 'padding': [0,1,0,1],
           \ })
