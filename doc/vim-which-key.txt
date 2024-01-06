@@ -377,6 +377,24 @@ Possible value: `{'', 'start', 'end'}` .
     let g:which_key_group_dicts = 'end'
 <
 
+                                            *g:which_key_error_popup*
+Type: global variable
+Default: 0
+
+This variable controls the display mode of error messages in the which_key plugin.
+
+When set to 1, error messages are shown in popup windows. This provides a more
+graphical and interactive way of displaying errors, especially useful in GUI
+versions of Vim or when working in a windowed environment.
+When set to 0 or unset, error messages are displayed in the command line, which
+is the default behavior.
+Possible value: `{0, 1}` .
+>
+    let g:which_key_error_popup = 1
+<
+Note that this feature requires Vim version 8.1 or later, as it relies on Vim's
+popup window functionality.
+
 ==============================================================================
 COMMANDS                                              *vim-which-key-commands*
 

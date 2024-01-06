@@ -305,12 +305,13 @@ See more details about commands and options via `:h vim-which-key`.
 
 ### Options
 
-| Variable               |  Default   |                 Description                 |
-| :--------------------- | :--------: | :-----------------------------------------: |
-| `g:which_key_vertical` |     0      |            show popup vertically            |
-| `g:which_key_position` | `botright` |        split a window at the bottom         |
-| `g:which_key_hspace`   |     5      |  minimum horizontal space between columns   |
-| `g:which_key_centered` |     1      | make all keybindings centered in the middle |
+| Variable                  |  Default   |                 Description                 |
+| :------------------------ | :--------: | :-----------------------------------------: |
+| `g:which_key_vertical`    |     0      |            show popup vertically            |
+| `g:which_key_position`    | `botright` |        split a window at the bottom         |
+| `g:which_key_hspace`      |     5      |  minimum horizontal space between columns   |
+| `g:which_key_centered`    |     1      | make all keybindings centered in the middle |
+| `g:which_key_error_popup` |     0      | use notification popups to display errors   |
 
 ### FAQ
 
