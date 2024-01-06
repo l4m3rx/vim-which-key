@@ -24,6 +24,7 @@ function! ShowPopupNotification(msg, hl_group) abort
           \ 'anchor': 'NW',
           \ 'minwidth': 20,
           \ 'time': 3000,
+          \ 'pos': 'topright',
           \ 'highlight': a:hl_group,
           \ 'border': [],
           \ 'borderchars': ["\u2500", "\u2502", "\u2500", "\u2502", "\u256D", "\u256E", "\u256F", "\u2570"],
