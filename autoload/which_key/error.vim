@@ -26,6 +26,7 @@ function! ShowPopupNotification(msg, hl_group) abort
           \ 'time': 3000,
           \ 'highlight': a:hl_group,
           \ 'border': [],
+          \ 'borderchars': ['─', '│', '─', '│', '╭', '╮', '╯', '╰'],
           \ 'close': 'click',
           \ 'padding': [0,1,0,1],
           \ })
